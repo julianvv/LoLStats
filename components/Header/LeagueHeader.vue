@@ -31,7 +31,8 @@
           />
         </nuxt-link>
       </div>
-      <BaseHeaderHamburger class="hamburger" @click="fn" />
+      <!-- TODO: Add click handler for opening the menu -->
+      <BaseHeaderHamburger class="hamburger" />
     </ul>
   </nav>
 </template>

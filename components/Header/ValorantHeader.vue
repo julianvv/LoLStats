@@ -28,7 +28,8 @@
           />
         </nuxt-link>
       </div>
-      <BaseHeaderHamburger class="hamburger" @click="fn" />
+      <!-- Add click event to open mobile menu -->
+      <BaseHeaderHamburger class="hamburger"/>
     </ul>
   </nav>
 </template>
